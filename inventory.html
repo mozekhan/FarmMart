@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inventory Management</title>
+  <link rel="stylesheet" href="styles/inventorystyle.css">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <!-- navbar -->
+  <div class="navbar">
+    <div class="logo">
+      <h2>Farm-Mart</h2>
+    </div>
+
+    <div class="nav">
+      <nav>
+        <ul>
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="dashboard.html">Dashboard</a></li>
+          <li><a href="userprofile.html">Profile</a></li>
+          <li><a href="marketplace.html">Market</a></li>
+          <li><a href="inventory.html">Inventory</a></li>
+          <li><a href="order_management.html">Order</a></li>
+          <li><a href="#contactUs">Contact us</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="login">
+        <form action="">
+          <label for="submit">Login</label>
+          <input type="submit" value="Get Started" id="submit" />
+        </form>
+    </div>
+</div>
+
+  <header>
+    <h2>Add Product</h2>
+  </header>
+  <main>
+    <form id="inventoryForm">
+      <label for="productName">Product Name:</label>
+      <input type="text" id="productName" name="productName" required>
+      <br>
+      <label for="quantity">Quantity:</label>
+      <input type="number" id="quantity" name="quantity" required>
+        <br>
+      <label for="quantity">Price:</label>
+      <input type="number" id="price" name="price" required>
+      <br>
+      <label for="product-image">Product Image</label>
+      <input type="file" id="product-image" required>
+      <br>
+      <button type="submit">Add to Inventory</button>
+    </form>
+    <ul id="inventoryList">
+      <!-- Inventory items will be dynamically loaded here -->
+    </ul>
+      <h1>My Inventory</h1>
+
+
+
+
+      <!--Simulation of the inventory page-->
+
+      <section class="inventory-grid">
+        <div class="inventory-item">
+          <img src="Images/tomatoes.jpeg">
+          <h3>Tomatoes</h3>
+          <p>Quantity: 500 kg</p>
+          <p>Price: N2000/Basket</p>
+          <button class="action-button">Edit</button>
+        </div>
+
+
+        <div class="inventory-item">
+          <img src="Images/potato img.jpeg">
+          <h3>Potatoes</h3>
+          <p>Quantity: 350kg</p>
+          <p>Price: N800/kg</p>
+          <button class="action-button">Edit</button>
+        </div>
+
+        <div class="inventory-item">
+          <img src="Images/broilers.jpeg">
+          <h3>Broiler</h3>
+          <p>Quantity: 1000 pcs</p>
+          <p>Price: N5000/pc</p>
+          <button class="action-button">Edit</button>
+        </div>
+
+          <div class="inventory-item">
+            <img src="Images/ricegrain.jpeg">
+            <h3>Rice</h3>
+            <p>Quantity: 500kg</p>
+            <p>price: N2000/kg</p>
+            <button class="action-button">Edit</button>
+          </div>
+
+            <div class="inventory-item">
+              <img src="Images/pepper img.jpeg" alt="">
+              <h3>Pepper</h3>
+              <p>Quantity: 300kg</p>
+              <p>price: 300kg</p>
+              <button class="action-button">Edit</button>
+            </div>
+
+        </div>
+      </section>
+    
+  </main>
+
+  <!-- Footer section -->
+  
+  <div class="footer">
+    <div class="find-us">
+      <div class="head">
+        <h3>Farm Mart</h3>
+        <p>Quality farm produce through buying and selling</p>
+      </div>
+      <div class="twiter">
+        <span><i class="fa fa-twitter"></i></span>
+      </div>
+      <div class="facebook">
+        <span><i class="fa fa-facebook"></i></span>
+      </div>
+      <div class="instagram">
+        <span><i class="fa fa-instagram"></i></span>
+      </div>
+    </div>  
+
+    <div class="more">
+      <div class="company list">
+        <ul>
+          <li><a href="#company" id="active">Company</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#product">Product</a></li>
+          <li><a href="#contact me">Contact Me</a></li>
+        </ul>
+      </div>
+
+      <div class="products list">
+        <ul>
+          <li><a href="#products" id="active">Products</a></li>
+          <li><a href="#dairy">Dairy</a></li>
+          <li><a href="#cereals">Cereals</a></li>
+          <li><a href="#vegetables">Vegetables & fruits</a></li>
+          <li><a href="more">More......</a></li>
+        </ul>
+      </div>
+      <div class="others list">
+        <ul>
+          <li><a href="#others" id="active">Others</a></li>
+          <li><a href="#faqs">FAQs</a></li>
+          <li><a href="#terms">Terms and Services</a></li>
+          <li><a href="#privacy">Privacy and Policy</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <!-- copyright section -->
+  
+  <div class="copyright">
+    <p>All right reserved. 2024</p>
+  </div>
+    </div>
+  </div>
+
+  <script src="Javascript/inventory.js"></script>
+  <script src="Javascript/app.js"></script>
+</body>
+</html>

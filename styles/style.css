@@ -1,0 +1,710 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 100vw;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+  }
+
+  .navbar{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    color: whitesmoke;
+  }
+  .navbar .logo{
+    margin: 25px;
+    text-shadow: 2px 0 0;
+    letter-spacing: 1px;
+  }
+  .navbar .nav nav{
+    width: 800px;
+  
+  }
+  .navbar .nav nav ul{
+    list-style-type: none;
+    margin: 25px;
+  
+  }
+  .navbar .nav nav ul li{
+    display: inline-block;
+    margin: 5px;
+    
+  }
+  .navbar .nav nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .navbar .nav nav ul li a:hover{
+    font-size: 14px;
+  }
+  
+  .navbar .login{
+    margin-right: 25px;
+    margin-top: 28px;
+   
+  }
+  .navbar .login form label{
+    margin-right: 25px;
+    font-size: 10px;
+  }
+  
+  .navbar .login form input{
+    width:100px ;
+    height: 35px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    background-color: #ED661F;
+    cursor: pointer;
+  }
+  .navbar .login form input:hover{
+    box-shadow: 1px 1px 1px #ED661F;
+  }
+  .active{
+  border-bottom: 2px solid #ED661F;
+  
+  }
+
+  /* Index page styling starts*/
+
+/* Home section */
+
+.home{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin-top: 40px;
+  background-image: url(Images/img1.jpeg);
+  background-size: contain;
+  
+  }
+  .home .content{
+    margin-left: 30px;
+    margin-top: 10px;
+    flex: 1;
+  }
+  .home .content h2{
+    text-shadow: 2px 0 0;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    color: #e0f7fa;
+  
+  }
+  .home .content p{
+    margin-top: 8px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #e0e0e0;
+  }
+  .home .content button{
+    margin-bottom: 85px;
+    margin-top: 20px;
+    height: 38px;
+    background-color: #ED661F;
+    border: none;
+    padding: 10px;
+    color: whitesmoke;
+    font-weight: 900;
+    cursor: pointer;
+  }
+  .home .content button:hover{
+    transform: scale(1.05);
+  }
+  .home .fruits{
+    flex: 1;
+  
+  }
+  .home .fruits img{
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  /* Feedback section */
+  
+  .feedback{
+    width:50%;
+    height: 80px;
+    background-color: #fafafa;
+    box-shadow: 0 1px 3px gray ;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: -70px;
+    right: -50px;
+  }
+  .feedback .data{
+    /* background-color:yellow; */
+    margin: 10px;
+    height: 40px;
+    text-align: center;
+  }
+  .feedback .data p{
+    font-size: 12px;
+    font-weight: bold;
+    text-shadow: 0.5px 0 0;
+    letter-spacing: 0.5px;
+  }
+  
+  /* about section */
+  
+  .underline{
+    width: 50px;
+    height: 2px;
+    background-color: #ED661F;
+  }
+  
+  .about{
+    display: flex;
+    width: 90%;
+    margin: auto;
+  
+  }
+  .about>.content{
+  flex:1;
+  
+  }
+  .about .content p{
+    /* font-size: 10px; */
+    margin-top: 15px;
+    
+  }
+  .about .image{
+    flex: 1;
+    position: relative;
+    top: -30px;
+  }
+  .about .image img{
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  
+  /* products section */
+  .products{
+  width: 50%;
+  /* background-color: blueviolet; */
+  margin: auto;
+  text-align: center;
+  margin-bottom: 30px
+  }
+  .products div{
+   margin: auto;
+   margin-bottom: 10px;
+   margin-top: 5px;
+  }
+  .products p{
+    /* font-size: 10px; */
+  }
+  
+  /* popular products section */
+  
+  .heading{
+    margin-left: 35px;
+  }
+  
+  .popular-items{
+    width: 95%;
+    margin: auto;
+    display: flex;
+  }
+  
+  .popular-items .example{
+  margin: 30px;
+  }
+  
+  .popular-items .example img{
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: 4px;
+  }
+  
+  .popular-items .example .cost p{
+    font-size: 10px;
+    margin: 5px auto
+  } 
+  .popular-items .example .cost h6{
+    font-size: 12px;
+  }
+  
+  /* see all section */
+  
+  .see-all{
+    /* background-color: green; */
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 40px;
+  margin-bottom: 30px;
+  margin: 60px 40px;
+  }
+  
+  .see-all .underline2{
+    background-color: #ED661F;
+    width: 25px;
+    height: 2px;
+  }
+  .see-all i{
+    font-size:48px 0;
+    color:#ED661F;
+    margin:5px 10px;
+    width: 40px;
+    
+  }
+  .see-all .heading h5{
+    font-size: 12px;
+  }
+  
+  .border{
+    width: 95%;
+    margin: auto;
+    margin-top:35px;
+    height: 15px;
+    background-color: #c2c5c6;
+    border-top:2px solid #969696;
+    margin-bottom: 30px;
+  }
+  
+  
+  /* credits section */
+  
+  .subject{
+    font-size: 8px;
+    font-family: "Poppin";
+    width: 90%;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  
+  .ratings{
+    /* background-color: blue; */
+    width: 95%;
+    margin: auto;
+    display: flex;
+  
+  }
+  
+  .ratings .fivestar{
+    /* min-width: 20px; */
+    margin: 20px;
+    background-color:#fafafa ;
+    box-shadow:0 2px 2px rgb(155, 155, 155) ;
+    flex: 1;
+  
+  }
+  
+  .ratings .fivestar .stars{
+    color: rgba(201, 201, 201, 0.815);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .ratings .fivestar .stars span{
+    margin: 3px;
+  }
+  .ratings .fivestar .stars .checked{
+  color: #ED661F;
+  }
+  .ratings .fivestar .quote{
+    padding: 15px;
+    font-size: 12px;
+    font-weight: 900
+  }
+  .ratings .fivestar .quote h3{
+    text-shadow: 1px 0px 0;
+    letter-spacing: 1px;
+    /* background-color: #ED661F; */
+    margin: 1em;
+  }
+  .ratings .fivestar .handle{
+    /* background-color: yellow; */
+    margin: 10px 10px;
+    display: flex;
+    /* padding: 5px; */
+  }
+  .ratings .fivestar .handle img{
+    background-color: white;
+    margin-right: 10px;
+    flex: 1;
+    width: 50px;
+    height: 50px;
+    /* max-width: 20%; */
+    /* max-height: 10%; */
+    border-radius: 50%;
+  }
+  .ratings .fivestar .handle p{
+    /* background-color: green; */
+    flex: 2;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 15px ;
+  }
+  
+  .fivestar h3{
+    font-weight: bolder;
+  }
+  
+  /* subscription section */
+  
+  .subscription{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 180px;
+    text-align: center; 
+    margin-bottom: 3px;
+  }
+  .subscription .sub{
+    width: 250px;
+    margin: auto;
+    padding: 10px;
+    height: 140px;
+  }
+   .subscription .sub h4{
+    margin-top: 30px;
+  }
+  .subscription form{
+    padding-top: 10px;
+    margin-bottom: 15px;
+    display: flex;
+  
+  }
+  
+  .subscription form #email{
+  text-align: center;
+  width: 180px;
+  height: 25px;
+  margin: 0;
+  border: none;
+  }
+  .subscription form #submit{
+    background-color: #ED661F;
+    height: 25px;
+    width: 80px;
+    margin-left: -1px;
+    border: none;
+  }
+  .subscription form #submit:hover{
+    transform: scale(1.05);
+  }
+  .subscription p{
+  font-size: 12px;
+  margin-bottom: 10px;
+  } 
+  
+  /* footer section */
+
+.footer{
+  background-color: black;
+  color: whitesmoke;
+  display: flex;
+  height: auto;
+padding: 50px 20px 10px 20px;
+}
+.footer .find-us{
+flex: 1;
+/* width: 50%; */
+/* background-color: #ED661F; */
+padding: 5px;
+display: flex;
+flex-direction: column;
+}
+.footer .find-us .head{
+  margin-bottom: 10px;
+}
+.footer .find-us .head p{
+  font-size: 12px;
+}
+.footer .find-us .twiter span i{
+background-color: #fafafa;
+border-radius: 50%;
+font-size: 12px;
+color: black;
+padding: 3px;
+}
+.footer .find-us .twiter span i:hover{
+  transform: scale(1.05);
+}
+.footer .find-us h6{
+  margin-top: 15px;
+}
+.footer .find-us .app-store{
+margin-top: 10px;
+}
+.footer .find-us .app-store img:hover{
+  transform: scale(1.05);
+}
+.footer .find-us .app-store #apple{
+  width: 100px;
+  border-radius: 5px;
+margin-right: 10px;
+}
+
+#google{
+  width: 100px;
+  height: 35px;
+  border-radius: 5px;
+}
+
+/* more */
+.footer .more{
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: #fafafa; */
+  margin-top: -15px;
+  margin-right: 30px;
+}
+
+.footer .more .list {
+  /* background-color: #ED661F; */
+  margin:10px;
+  flex: 1;
+}
+.footer .more .list ul li{
+  list-style-type: none;
+  text-align: left;
+}
+.footer .more .list ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 10px;
+}
+.footer .more .list ul li #active{
+  font-weight: bolder;
+  font-size: 14px;
+}
+.footer .more .list ul li a:hover{
+  font-size: 12px;
+}
+
+/* copyright section */
+
+.copyright{
+  background-color: black;
+  color: #fafafa;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+
+/* Responsiveness */
+
+@media  only screen and (max-width:589px){
+
+  .navbar{
+    background-color: black;
+    height: fit-content;
+  }
+
+  .navbar .nav nav ul li{
+    display: block;
+    margin: 5px; 
+  }
+  .active{
+    width: 32px;
+   /* text-decoration: underline solid #ED661F 20%; */
+  }
+
+
+
+
+
+  
+  
+  /*Index page styling ends*/
+  
+  
+  /* Forms */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+  
+  form input, form button, form select {
+    padding: 0.7rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  form button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  form button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Lists and Items */
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 1rem;
+  }
+  
+  /*ul li {
+    background: #e0e0e0;
+    padding: 0.8rem;
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }*/
+  
+  ul li strong {
+    font-weight: bold;
+  }
+  
+  /* Buttons within items */
+  ul li button {
+    margin-left: 0.5rem;
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 0.4rem 0.6rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  ul li button:hover {
+    background-color: #e53935;
+  }
+  
+  /* Notifications */
+  #notificationList {
+    margin-top: 1rem;
+    padding: 0;
+  }
+  
+  #notificationList li {
+    padding: 0.8rem;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Messages */
+  #messagesContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .message {
+    background: #e0f7fa;
+    padding: 0.8rem;
+    border-radius: 4px;
+    font-size: 0.95rem;
+  }
+  
+  #messageForm {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  #messageForm input {
+    flex: 1;
+  }
+  
+  #messageForm button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.7rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #messageForm button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Insights Section */
+  #insights {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  
+  #insights div {
+    background: #f1f8e9;
+    padding: 1rem;
+    border: 1px solid #c5e1a5;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  /* Loading and Error Messages */
+  .loading, .error {
+    font-size: 1rem;
+    color: #555;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .loading {
+    color: #4CAF50;
+  }
+  
+  .error {
+    color: #e53935;
+  }
+  
+
+  /* Responsiveness*/
+  
+@media  only screen and (max-width:589px){
+  
+    .navbar{
+      background-color: black;
+      height: fit-content;
+      width: 800px;
+    }
+  
+    .navbar .nav nav ul li{
+      display: block;
+      margin: 5px; 
+    }
+    .active{
+      width: 32px;
+      text-decoration: underline solid #ED661F 20%;
+    }
+  
+    .ratings{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+    }
+    .ratings .fivestar .handle{
+      display: grid;
+      background-color: #ED661F;
+    }
+  
+    .ratings .fivestar .handle img,p{
+      justify-self: center;
+    }
+  
+    .footer .find-us .app-store{
+      display: grid;
+    }
+  }

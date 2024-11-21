@@ -1,0 +1,53 @@
+form {
+    margin-left: 10px;
+    background-color: #f4f4f9;
+    border: 2px solid #f4f4f9;
+    width: 30%;
+    border-radius: 5px;
+    
+}
+header h2 {
+    color: #ED661F;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 1rem;
+
+}
+
+input {
+    padding: 0.5em;
+    border: 1px solid #ED661F;
+    border-radius: 5px;
+}
+
+#product-image {
+    border: none;
+    background-color: #ED661F;
+    color: #fff;
+    width: 190px;
+
+}
+
+button {
+  background-color: #ED661F;
+  color: #fff;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 5px;
+  border: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+button:hover {
+  color: #ED661F;
+  background-color: #fff;
+  border: 2px solid #ED661F;
+
+}

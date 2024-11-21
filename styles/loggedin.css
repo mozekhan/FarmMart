@@ -1,0 +1,51 @@
+/* Role Interface Styles */
+.user-interface {
+    Padding: 2rem;
+    Text-align: center;
+  }
+  
+  .role-interface {
+    Display: none;
+  }
+  
+  .action-button {
+    Background-color: #4CAF50;
+    Color: white;
+    Padding: 0.5rem 1rem;
+    Border: none;
+    Text-decoration: none;
+    Border-radius: 5px;
+    Margin-top: 1rem;
+    Cursor: pointer;
+  }
+  
+  .action-button:hover {
+    Background-color: #45A049;
+  }
+  
+  /* Modal Styles */
+  .modal {
+    Display: none;
+    Position: fixed;
+    Top: 50%;
+    Left: 50%;
+    Transform: translate(-50%, -50%);
+    Background-color: white;
+    Border-radius: 8px;
+    Box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    Padding: 1.5rem;
+    z-index: 10;
+  }
+  
+  .modal-content {
+    Text-align: left;
+  }
+  
+  .close-button {
+    Float: right;
+    Cursor: pointer;
+    Color: red;
+    Font-size: 1.2rem;
+  }
+  
+  

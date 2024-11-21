@@ -1,0 +1,71 @@
+/* Main Content */
+Main {
+    Padding: 2em;
+    Max-width: 1200px;
+    Margin: 0 auto;
+  }
+  
+  H1, h2, h3 {
+    Color: black;
+  }
+  
+  /* Card Layouts */
+  .card, .profile-card, .product-card, .order-item, .inventory-item {
+    Background: white;
+    Border-radius: 8px;
+    Box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    Padding: 1em;
+    Margin: 1em 0;
+  }
+  
+  .card h2, .profile-card h2, .product-card h3, .order-item h3, .inventory-item h3 {
+    Margin-bottom: 0.5em;
+  }
+  
+  /* Profile Section */
+  .profile-card {
+    Text-align: center;
+  }
+  
+  .profile-image {
+    Border-radius: 50%;
+    Width: 120px;
+    Height: 120px;
+    Margin-bottom: 1em;
+  }
+  
+  /* Product Grid */
+  .product-grid {
+    Display: grid;
+    Grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    Gap: 1em;
+  }
+  
+  .product-card img {
+    Max-width: 100%;
+    Border-radius: 8px;
+  }
+  
+  .action-button {
+    Display: inline-block;
+    Background-color: #ED661F;
+    Color: white;
+    Padding: 0.5em 1em;
+    Text-align: center;
+    Border-radius: 4px;
+    Margin-top: 0.5em;
+    Text-decoration: none;
+    Cursor: pointer;
+  }
+  
+  .action-button:hover {
+    Background-color: #c54b09;
+  }
+  
+  /* Inventory Section */
+  .inventory-grid {
+    Display: grid;
+    Grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    Gap: 1em;
+  }
+  

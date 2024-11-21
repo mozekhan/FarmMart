@@ -1,0 +1,123 @@
+body {
+    background-image: url(Images/img4.jpeg);
+  background-size: cover;
+  background-position: left;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  
+}
+form {
+    margin-left: 10px;
+    background-color: #f4f4f9;
+    border: 2px solid #f4f4f9;
+    width: 30%;
+    border-radius: 5px;
+    
+}
+header h2 {
+    color: #ED661F;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 1rem;
+
+}
+
+input {
+    padding: 0.5em;
+    border: 1px solid #ED661F;
+    border-radius: 5px;
+}
+
+#product-image {
+    border: none;
+    background-color: #ED661F;
+    color: #fff;
+    width: 190px;
+
+}
+
+button {
+  background-color: #ED661F;
+  color: #fff;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 5px;
+  border: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+button:hover {
+  color: #ED661F;
+  background-color: #fff;
+  border: 2px solid #ED661F;
+
+}
+
+main h1 {
+    color: #ED661F;
+    text-align: center;
+    background-color: #f4f4f9;
+    border: 1px solid #f4f4f9;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+
+.inventory-grid{
+    width: 90%;
+    height: fit-content;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #f4f4f9;
+    border: 5px solid #f4f4f9;
+    border-radius: 20px;
+  }
+  
+  .inventory-grid .inventory-item {
+    max-width: 300px;
+    max-height: 200px;
+    margin: 90px 30px 30px 30px;
+    border-radius: 20px;
+  }
+  
+  .inventory-grid .inventory-item img{
+    width: 400px;
+    height: max-content;
+    max-width: 100%;
+    max-height: 100%;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    
+  }
+
+
+  .inventory-grid .inventory-item  button {
+  background-color: #ED661F;
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding: 5px;
+  border: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+.inventory-grid .inventory-item button:hover {
+  color: #ED661F;
+  background-color: #fff;
+  border: 2px solid #ED661F;
+
+}
+
+  

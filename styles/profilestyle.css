@@ -1,0 +1,105 @@
+body{
+    background-image: url(Images/img3.jpeg);
+}
+  
+  H1, h2, h3 {
+    Color: #333;
+  }
+  
+  /* Card Layouts */
+  .card, .profile-card {
+    Background: rgb(169, 164, 164, 0.8);
+    Border-radius: 8px;
+    Box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    Padding: 1em;
+    Margin: 1em 1em;
+    max-width: 70%;
+  }
+  
+  .card h2, .profile-card h2, {
+    margin-bottom: 0.5em;
+  }
+  
+  /* Profile Section */
+  .profile-card {
+    Text-align: center;
+  }
+  
+  .profile-image {
+    Border-radius: 50%;
+    Width: 200px;
+    Height: 200px;
+    Margin-bottom: 1em;
+  }
+  
+  .action-button {
+    Display: inline-block;
+    Background-color: #ED661F;
+    Color: white;
+    Padding: 0.5em 1em;
+    Text-align: center;
+    Border-radius: 4px;
+    Margin-top: 0.5em;
+    Text-decoration: none;
+    Cursor: pointer;
+  }
+  
+  .action-button:hover {
+    Background-color: #692805;
+  }
+  
+  
+
+  form {
+    margin-left: 10px;
+    background-color: #f4f4f9;
+    border: 2px solid #f4f4f9;
+    width: 30%;
+    border-radius: 5px;
+    
+}
+header h2 {
+    color: #ED661F;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 1rem;
+
+}
+
+input {
+    padding: 0.5em;
+    border: 1px solid #ED661F;
+    border-radius: 5px;
+}
+
+#product-image {
+    border: none;
+    background-color: #ED661F;
+    color: #fff;
+    width: 190px;
+
+}
+
+button {
+  background-color: #ED661F;
+  color: #fff;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 5px;
+  border: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+button:hover {
+  color: #ED661F;
+  background-color: #fff;
+  border: 2px solid #ED661F;
+
+}
